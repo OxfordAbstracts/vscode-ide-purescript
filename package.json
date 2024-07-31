@@ -317,6 +317,11 @@
                     "type": "boolean",
                     "default": true,
                     "description": "Enable declaration codelenses for export management"
+                },
+                "purescript.focusedExternsCommand": {
+                    "type": "string",
+                    "description": "Command to run to get a JSON array of externs files to focus initially.",
+                    "scope": "resource"
                 }
             }
         },
